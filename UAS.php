@@ -8,10 +8,12 @@
 <?php
 $a = 50;
 $b = 10;
-
-if ($a > $b)
+if($a == $b) {
+     echo 'Benar';
+} else
 {
-     echo 'Benar';}
+     echo 'Salah';
+}
 ?>
 </body>
 </html>
