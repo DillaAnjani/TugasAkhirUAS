@@ -6,10 +6,10 @@
 </head>
 <body>
 <?php
-$i = 1;
+$colors = array("red", "green", "blue", "yellow");
 
-for($i = 1; $i < 6; $i++){
-    echo $i;
+foreach ($colors as $x) {
+  echo $x;
 }
 ?>
 </body>
